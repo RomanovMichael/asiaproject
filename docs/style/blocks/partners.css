@@ -19,6 +19,7 @@
     margin-left: -46px;
 }
 .partners__item {
+   display: flex;
    margin-left: 46px;
    width: 250px;
    height: 122px;
