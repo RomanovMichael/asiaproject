@@ -30,10 +30,11 @@
     width: 250px;
     height: 122px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     filter: grayscale(100%);
 }
-
+.partners__link:nth-chil(4n){
+    justify-content: flex-end;
 .partners__link:hover{
     filter: grayscale(0);
     
