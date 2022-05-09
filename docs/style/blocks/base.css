@@ -1,5 +1,5 @@
 
-html {
+html, body {
 	height: 100%;
 }
 
@@ -12,6 +12,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	margin: 0px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	min-width: 1200px;
 }
 .wrapper--main--page{
 	background: url(../../img/main_background/1.png) center top no-repeat, url(../../img/main_background/2.png) center bottom no-repeat;
@@ -64,6 +72,7 @@ img {
 .container {
 	margin: 0 auto;
 	max-width: 1138px;
+	width: 100%;
 }
 
 

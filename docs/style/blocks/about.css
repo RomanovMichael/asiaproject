@@ -12,36 +12,32 @@
 
 }
 .about {
-    display: inline-block;
-    
-   
-    min-height: 455px;
+   display: flex;
+  
 
 }
 .about:before{
     content: "";
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 490px;
     height: 505px;
     background: url(../../img/about/gates.png) center center / cover no-repeat;
 }
 .about__desc {
-    vertical-align: top;
-    display: inline-block;
-    width: 785px;
+
+    max-width: 785px;
     padding: 68px 81px;
     background: url(../../img/about/mountains.png) center center / cover no-repeat;
-    margin-left: 352px;
-    margin-top: -411px;
+    margin-left: -136px;
+    margin-top: 96px;
     line-height: 27px;
     border-radius: 5px;
 }
 .about__desc-text {
     color: #060606;
-    margin-bottom: 39px;
-    width: 502px;
-
+    margin-bottom: 66px;
+    
+    max-width: 623px;
 }
 .about__desc-text p {
     margin-bottom: 20px;

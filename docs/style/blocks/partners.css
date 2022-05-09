@@ -1,0 +1,40 @@
+.inner-section {
+    padding: 100px 0;
+
+}
+.inner-section--bg--grey {
+    background: #F2F2F2;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    line-height: 56.25px;
+    font-weight: bold;
+    color: #1A1B1E;
+    margin-bottom: 62px ;
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -46px;
+}
+.partners__item {
+   margin-left: 46px;
+   
+}
+
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 122px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.partners__link:hover{
+    filter: grayscale(0);
+    
+}

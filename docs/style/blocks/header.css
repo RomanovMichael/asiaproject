@@ -1,24 +1,25 @@
 header {
-    position: relative;
-    height: 86px;
-    margin-bottom: 116px;
+    display: flex;
+    margin-bottom: 33px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
     
 
 }
+.header__col {
+    display: flex;
+    align-items: center;
+}
 .logo {
-	position: absolute;
+    margin-right: 79px;
     display: block;
-	left: 0px;
-	top: 30px;
-    margin-top: 0px;
+
+}
+.header__col--align--right {
+    justify-content: flex-end;
 }
 
-.menu {
-    display: inline-block;
-    position: absolute;
-    top: 39px;
-    left: 163px;
-}
 
 .menu__item {
     display: inline-block;
@@ -41,10 +42,6 @@ address {
     font-style: normal;
 }
 .contacts {
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    right: 0px;
     text-align: right;
     line-height: 1.1;
 }

@@ -1,0 +1,56 @@
+.top-line {
+    min-height: 412px;
+    background: url(../../img/services/headline\ 1.png) right 50% top no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.top-line__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+.top-line__header {
+    padding-top: 30px;
+}
+
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 34px;
+
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__link {
+    color:#9A9A9A;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+
+}
+
+.breadcrumbs__item--active .breadcrumbs__link{
+    font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color:#9A9A9A ;
+
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__item{
+    display: flex;
+    align-items: center;
+}

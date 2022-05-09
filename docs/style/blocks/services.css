@@ -1,0 +1,57 @@
+
+.page-content {
+    background: #F4F5F5;
+    color:#303030;
+    padding: 76px 0px;
+}
+
+.services {
+    margin-bottom: 44px;
+}
+
+.service__title {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 35px;
+
+}
+.service{
+    display: flex;
+    padding: 24px 0;
+
+}
+
+.service__img {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.service__content {
+    flex: 1;
+    padding: 18px 0;
+}
+.service__desc {
+    line-height: 27px;
+    margin-bottom: 34.5px;
+}
+
+.service__btn {
+    color: #F5170E;
+    background: #FFFFFF;
+    border: #F5170E 1px solid ;
+    padding: 18px 39px;
+    line-height: 16.41px;
+    border-radius: 35px;
+}
+.service__btn:hover{
+    background: #F5170E;
+    color:#FFFFFF;
+}
+
+.offer__btn-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+}
