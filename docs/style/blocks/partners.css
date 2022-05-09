@@ -33,7 +33,7 @@
     justify-content: flex-start;
     filter: grayscale(100%);
 }
-.partners__link:nth-chil(4n) {
+.partners__link:nth-child(4n) {
     justify-content: flex-end;
 }
 .partners__link:hover{
