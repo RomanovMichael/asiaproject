@@ -1,5 +1,9 @@
-/* main page*/
+/*welcome page*/
+@import url(./style/blocks/welcome.css);
 
+
+
+/* main page */
 @import url(./style/blocks/base.css);
 @import url(./style/blocks/header.css);
 @import url(./style/blocks/hero.css);
@@ -10,8 +14,16 @@
 @import url(./style/blocks/footer.css);
 
 
-/* services page */
 
+/* services page */
 @import url(./style/blocks/topline.css);
 @import url(./style/blocks/services.css);
 @import url(./style/blocks/partners.css);
+
+
+
+/* reviews page */
+@import url(./style/blocks/reviews.css);
+@import url(./style/blocks/separator.css);
+@import url(./style/blocks/form.css);
+

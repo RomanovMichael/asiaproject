@@ -36,15 +36,22 @@ header {
 }
 .menu__link:hover{
     color: #DA0100;
+    transition: 0.3s;
 }
 
 address {
     font-style: normal;
 }
 .contacts {
+    
     text-align: right;
     line-height: 1.1;
 }
+
+.header__contacts{
+    position: relative;
+}
+
 .contacts__phone {
     font-size: 26px;
     margin-bottom: 5px;
@@ -53,4 +60,63 @@ address {
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.dropdown__menu {
+    position: absolute;
+    top: 125%;
+    right: 0;
+    background: #EDEDED;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 15px 20px 15px;
+    right: -9999px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+.dropdown__menu::after{
+    content: "";
+    position: absolute;
+    border: 10px solid transparent;
+    border-bottom-color: #EDEDED;
+    border-top-width: 0;
+    top: -10px;
+    right: 43px;
+}
+.dropdown__menu::before {
+    content: "";
+    height: 12px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -12px;
+
+}
+
+.dropdown__days {
+    
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 9px;
+   
+    
+}
+.dropdown__time {
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.contacts__dropdown-wrap:hover .dropdown__menu{
+    right: 0;
+    opacity: 0.8;
+
+}
+
+.contacts__dropdown-wrap:hover .contacts__dropdown-title {
+    color: #DA0100;
+    transition: .3s;
 }

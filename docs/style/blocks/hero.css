@@ -40,7 +40,9 @@ h1 {
     text-transform: uppercase;
     font-size: 14px;
     display: inline-block;
+    color: #ffff;
 }
 .btn:hover{
     background: #DA0100;
+    transition: 0.3s;
 }

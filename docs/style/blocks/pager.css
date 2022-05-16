@@ -20,6 +20,7 @@
 .pager__item .pager__link:hover {
     background: #FFFFFF;
     color: #F5170E;
+    transition: 0.3s;
 }
 .pager__list{
     display: flex;
@@ -50,4 +51,5 @@
 .pager--theme--dark .pager__item .pager__link:hover{
     background:#F5170E;
     color:#FFFFFF;  
+    transition: 0.3s;
 }
